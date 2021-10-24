@@ -10,7 +10,7 @@ Je krijgt bij het clonen van deze repository een Github repository met daarin ee
 2. Hierna maak je een fork van onderstaande repository op je eigen github (username) space:
 ```https://github.com/PXL-2TIN-DevOps-Resources/calculator-app-finished```. Forken kan je met de knop `Fork` rechts bovenaan op de Github pagina. BV. Is je username JohnDoe54 zou je een repository moeten krijgen met als url `https://github.com/JohnDoe54/calculator-app-finished`. Deze url (van de geforkte repository) gebruik je in de volgende stap.
 <br/><br/>
-:information_source: _Er zijn in deze repository verschillende functionaliteiten, unittesten, ... voor de calculator applicatie voorzien. De codebase is wel aangepast: De package `jest-junit` werd toegevoegd aan de `package.json` file en er werd een jest config voorzien. Dit werd gedaan zodat, wanneer we de unittesten runnen, er een junit raport gegenereerd wordt in de root directory van de repository._
+:information_source: _Er zijn in deze repository verschillende functionaliteiten, unittesten, ... voor de calculator applicatie voorzien. De codebase is wel aangepast: De package `jest-junit` werd toegevoegd aan de `package.json` file en er werd een jest config voorzien. Dit werd gedaan zodat, wanneer we de unittesten runnen, er een junit rapport gegenereerd wordt in de root directory van de repository._
 
 3. Voorzie een stage "checkout code" die ervoor zorgt dat de code van de calculator app binnengehaald wordt van je persoonlijke calculator repository uit de vorige stap.
 
