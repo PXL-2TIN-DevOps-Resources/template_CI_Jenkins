@@ -28,7 +28,7 @@ _Toon aan met screenshots & uitleg onder **punt (b)** in oplossing.md hoe je de 
 
 7. Voorzie een stage “create bundle” waarbij je alle benodigde files voor de werkende applicatie (de .git folder, .gitignore, readme.md,Jenkinsfile, test folder, ... zijn dus niet nodig!) in een map bundle steekt. Vervolgens wordt er een zip file gemaakt waarin de map "bundle" gestoken wordt.
 
-8. Bij het falen van de volledige pipeline wordt er de melding “pipeline poging faalt op &lt;datum + tijd>” weggeschreven naar een file jenkinserrorlog in de homefolder van de jenkins user op je systeem. Deze file bestaat default niet.
+8. Bij het falen van de volledige pipeline wordt er de melding “pipeline poging faalt op &lt;datum + tijd>” weggeschreven naar een file jenkinserrorlog in de homefolder van de jenkins user op je systeem. Deze file bestaat default niet. Bij het succesvol doorlopen van de pipeline wordt de zip file uit stap 7 gearchiveerd als artifact.
 
 ![alt_text](https://i.imgur.com/9leib3p.png "image_tooltip") _De gehele pipeline moet zo opgebouwd zijn dat we hem meerdere malen na elkaar succesvol kunnen uitvoeren. Indien je voor vraag 2 tem. 7 stages/stappen  moet toevoegen, doe je dit ook en documenteer je dit in je oplossing.md file onder **punt (c)**._
 
