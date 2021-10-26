@@ -17,10 +17,10 @@ Je krijgt bij het clonen van deze repository een Github repository met daarin ee
 ![alt_text](https://i.imgur.com/9leib3p.png "image_tooltip")
 _Toon aan met screenshots & uitleg onder **punt (a)** in oplossing.md hoe je dit bovenstaande gedaan hebt. Leg de focus hier op het gebruik van de credential manager._
 
-4. Voorzie een `npm` configuratie in de global tool configuration van jenkins met als naam "npmtin" die je gebruikt doorheen de pipeline.
+4. Voorzie een `nodejs` configuratie in de global tool configuration van jenkins met als naam "nodetin" die je gebruikt doorheen de pipeline. Tip: NodeJS plugin
 
 ![alt_text](https://i.imgur.com/9leib3p.png "image_tooltip")
-_Toon aan met screenshots & uitleg onder **punt (b)** in oplossing.md hoe je de global tool configuration ingesteld hebt._
+_Toon aan met screenshots & uitleg onder **punt (b)** in oplossing.md hoe je de global tool configuration ingesteld & gebruikt hebt._
 
 5. Vervolgens maak je een stage “install dependencies” die ervoor zal zorgen dat alle `npm` dependencies van de applicatie geïnstalleerd zullen worden. Denk hierbij terug wat er nodig was in de 1ste les. 
 
