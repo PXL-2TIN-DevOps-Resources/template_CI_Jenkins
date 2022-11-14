@@ -5,7 +5,7 @@ Voor deze opdracht maken we gebruik van Github en de Jenkins server uit de vorig
 Je krijgt bij het clonen van deze repository een Github repository met daarin een Jenkinsfile die je moet gebruiken voor het opbouwen van je pipeline.
 
 1. Maak een nieuw pipeline project die gebruik maakt van de Jenkinsfile uit deze repository als pipeline script. Alle stages, stappen, aanpassingen aan de pipeline gebeuren vanaf nu in de Jenkinsfile in de repository van deze opdracht. De naam van het project in jenkins mag je zelf kiezen.
-
+_Tip: gebruik ssh keys voor de authenticatie naar je repository toe. Let op bij het kopieren van de public key naar GitHub: hierbij kopieer je het hostname gedeelte *niet* mee!_
 
 2. Hierna maak je een fork van onderstaande repository op je eigen github (username) space:
 ```https://github.com/PXL-2TIN-DevOps-Resources/calculator-app-finished```. Forken kan je met de knop `Fork` rechts bovenaan op de Github pagina. BV. Is je username JohnDoe54 zou je een repository moeten krijgen met als url `https://github.com/JohnDoe54/calculator-app-finished`. Deze url (van de geforkte repository) gebruik je in de volgende stap.
