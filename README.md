@@ -17,7 +17,7 @@ _Tip: gebruik ssh keys voor de authenticatie naar je repository toe. Let op bij 
 ![alt_text](https://i.imgur.com/9leib3p.png "image_tooltip")
 _Toon aan met screenshots & uitleg onder **punt (a)** in oplossing.md hoe je dit bovenstaande gedaan hebt. Leg de focus hier op het gebruik van de credential manager._
 
-4. Voorzie een `nodejs` configuratie in de global tool configuration van jenkins met als naam "nodetin" die je gebruikt doorheen de pipeline. Tip: NodeJS plugin
+4. Voorzie een `nodejs` configuratie in de global tool configuration van jenkins met als naam "TINnode-devops" die je gebruikt doorheen de pipeline. Tip: NodeJS plugin
 
 ![alt_text](https://i.imgur.com/9leib3p.png "image_tooltip")
 _Toon aan met screenshots & uitleg onder **punt (b)** in oplossing.md hoe je de global tool configuration ingesteld & gebruikt hebt._
