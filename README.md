@@ -12,7 +12,7 @@ _Tip: gebruik ssh keys voor de authenticatie naar je repository toe. Let op bij 
 <br/><br/>
 :information_source: _Er zijn in deze repository verschillende functionaliteiten, unittesten, ... voor de calculator applicatie voorzien. De codebase is wel aangepast: De package `jest-junit` werd toegevoegd aan de `package.json` file en er werd een jest config voorzien. Dit werd gedaan zodat, wanneer we de unittesten runnen, er een junit rapport gegenereerd wordt in de root directory van de repository._
 
-3. Voorzie een stage "checkout code" die ervoor zorgt dat de code van de calculator app binnengehaald wordt van je persoonlijke calculator repository uit de vorige stap.
+3. Voorzie een stage "fetching source" die ervoor zorgt dat de code van de calculator app binnengehaald wordt van je persoonlijke calculator repository uit de vorige stap.
 
 ![alt_text](https://i.imgur.com/9leib3p.png "image_tooltip")
 _Toon aan met screenshots & uitleg onder **punt (a)** in oplossing.md hoe je dit bovenstaande gedaan hebt. Leg de focus hier op het gebruik van de credential manager._
